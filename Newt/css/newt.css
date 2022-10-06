@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+/* for the header- background colour padding center align text*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Peralta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Indie+Flower&family=Peralta&display=swap');
+
+h1,h2{
+	font-family: 'Indie Flower', cursive;
+}
+html{
+	font-family: 'Bitter', serif;
+}
+header{
+	background-color:#FEFAE0;
+	text-align: center;
+	/*padding shortcut works the same as margin t r b l*/
+	padding: 30px 0px 30px 0px;
+	color:black;
+	
+}
+
+
+/*************************sections****************************/
+
+/*************************sections****************************/
+
+
+section home{
+	background-color:#4A4D51;
+	max-width:1200px;
+	/*text color*/
+	color: white;
+	margin:0 auto;
+	padding: 50px,50px;
+	/*this will make the section the size of all of the contents even those flaoting*/
+	overflow:hidden;
+	text-align: center;
+	
+}
+.sticky{
+	background-color:#FEFAE0; 
+	margin: auto;
+}
+
+/*override with class- more than one element to look the same but not all of the elements look that way*/
+.alternante{
+	background-color:#CCD5AE;
+
+}
+
+section img{
+	float: left;
+	/*push text off of picture*/
+	margin-right: 40px;
+}
+
+
+footer{
+	background-color:#FEFAE0;
+	margin:30px,0px;
+color:black; 
+	text-align: center;
+	padding:50px;
+	
+}
+
+
+
+/****************************styled links**************************/
+
+a:link{
+	color:blue;
+
+}
+a:visited{
+	color:purple;
+}
+
+a:hover{
+	color: whitesmoke;
+		/* get rid of underline*/
+	text-decoration:none;
+}
+/*********when you are pressing down on the link*****************/
+a:active{
+	color: rebeccapurple;
+}
+/**************************button styling**************************/
+
+button{
+	background-color:#e7e7e7e7;
+	padding: 16px 32px;
+	font-size:17px;
+	/***************** change to a pointer finger******************/
+	cursor:pointer;
+	/*******************defalt border*************************/
+	border:2px solid #e7e7e7e7;
+		/********* add a trasition to fade between the states*/
+	transition-duration: 0.5s;
+}
+button:hover{
+	background-color:whitesmoke;
+	color: black;	
+	
+}
+
+/***************** nav bar******************************/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:grey;
+}
+
+nav li {
+  float:left;
+}
+
+nav li a:link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {background-color:dimgrey;}
+
+#mazerunner{
+	padding: 10px;
+	margin: 0px;
+}
+#the death cure{
+	padding: 100px;
+	margin: 100px;
+}
+
+#footer{
+	padding: 10px;
+	margin:0;
+}
+
+
+@charset "utf-8";
+/* CSS Document */
+
