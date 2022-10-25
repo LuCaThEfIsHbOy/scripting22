@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+
+h1, h2{
+	font-family: "monofett, cursive, bold";
+}
+#title{
+	background-image: url("../BioImages/pride_flag_yellow.jpg"); 
+	background-size: cover;
+	background-position: right center;
+	color:#FCD6A6;
+}
+#about{
+	text-size:50;
+}
+body{
+	background-color: dimgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
