@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+
+h1{
+	font-family: "monofett, cursive, bold";
+}
+section#title{
+	background-color: beige;
+}
+#about{
+	text-size:50;
+}
+body{
+	background-color: dimgrey;
+}
+.sticky
+
+title{
+	background-image:radial-gradient();
+}
+btn btn-primary btn-lg{
+	
+}
+footer{
+	background-color: beige;
+}
